@@ -1,0 +1,5 @@
+Na imagem é possivel ver que vazou o conteudo do silo, pois a maquina foi 
+iniciada com a caixa em cima do sensor de presença e fora do sensor de nivel, 
+assim o programa manda abrir o silo, pois acredita que a caixa está exatamente 
+em baixo do silo, atualmente não sei uma forma de resolver isso através de programação.
+Uma solução seria mudar projeto da máquina, alinhando os sensores.
