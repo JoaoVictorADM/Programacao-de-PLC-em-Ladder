@@ -48,20 +48,6 @@ O sistema controla as seguintes etapas:
 
 ## Observações Técnicas
 
-- O botão **Stop** não interrompe todas as etapas do processo. Algumas continuam em execução.
-- Atualmente, não são utilizadas **variáveis virtuais**, que permitiriam:
-  - **Memorizar a etapa atual do processo**.
-  - Retomar a operação corretamente após uma parada de emergência.
-- Exemplo prático:
-  - Se o processo for interrompido durante o **esvaziamento**, e o líquido for retirado manualmente:
-    - Ao retomar, o **contador** ainda indicará que o líquido não foi totalmente removido.
-    - Sem verificação do **nível real**, o sistema pode tentar acionar a bomba sem necessidade.
-- Solução sugerida:
-  - Implementar **variáveis de etapa** para controle de sequência.
-  - Verificar os sensores antes de retomar qualquer etapa pendente.
-
-## Observações Técnicas
-
 - ⚠️ Algumas etapas do processo **não são paradas com o botão Stop**.
 - Atualmente sei da existência de **variáveis "virtuais"**, e sei que conseguiria resolver muita coisa com elas, mas ainda não aprendi a usá-las.
 - Uma ideia seria usá-las para simbolizar a **etapa atual do processo**, permitindo que o sistema "lembre" em que ponto estava antes de uma parada.
