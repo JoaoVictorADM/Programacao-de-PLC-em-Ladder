@@ -1,0 +1,358 @@
+FILE,LAD 2:
+SOR,0 XIC,I:1/0 XIO,O:2/2 BST,1 OTL,O:2/2 NXB,1 RES,C5:0 BND,1 EOR,0
+RCM,
+SOR,1 BST,1 XIO,I:1/1 NXB,1 XIC,C5:0/DN BND,1 OTU,O:2/2 EOR,1
+RCM,
+SOR,2 XIC,O:2/2 BST,1 XIO,I:1/3 NXB,1 XIC,O:2/4 BND,1 OTE,O:2/0 EOR,2
+RCM,
+SOR,3 XIC,O:2/2 XIO,I:1/4 XIC,I:1/3 XIO,O:2/4 BST,1 OTE,O:2/1 NXB,1 OTE,O:2/3 BND,1 EOR,3
+RCM,
+SOR,4 XIC,O:2/2 XIC,I:1/3 BST,1 XIC,I:1/4 NXB,1 XIC,O:2/4 BND,1 OTE,O:2/4 EOR,4
+RCM,
+SOR,5 XIC,O:2/4 CTU,?,10 EOR,5
+RCM,
+SOR,6 XIC,I:1/5 MOV,10,C5:0.PRE EOR,6
+RCM,
+SOR,7 XIC,I:1/6 MOV,20,C5:0.PRE EOR,7
+RCM,
+SOR,8 XIC,I:1/7 MOV,25,C5:0.PRE EOR,8
+RCM,
+SOR,9 END,9
+RCM,
+FILE,SBR 3:
+SOR,0 END,0
+RCM,
+FILE,SBR 4:
+SOR,0 END,0
+RCM,
+FILE,SBR 5:
+SOR,0 END,0
+RCM,
+FILE,SBR 6:
+SOR,0 END,0
+RCM,
+FILE,SBR 7:
+SOR,0 END,0
+RCM,
+FILE,SBR 8:
+SOR,0 END,0
+RCM,
+FILE,SBR 9:
+SOR,0 END,0
+RCM,
+BTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+NTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+FTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+SYMBOLS
+I:1/5 CHAVE SELETORA A
+I:1/6 CHAVE SELETORA B
+I:1/7 CHAVE SELETORA C
+O:2/2 LED RUN
+I:1/0 BOTÃO START
+I:1/1 BOTÃO STOP
+I:1/3 SENSOR CAIXA
+O:2/0 MOTOR ESTEIRA
+O:2/1 VÁLVULA SOLENOIDE SILO
+I:1/4 SENSOR NIVEL CAIXA
+O:2/4 LED FULL
+O:2/3 LED FILL
